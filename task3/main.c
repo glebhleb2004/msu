@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include "list.h"
 
-#define BLOCK_SIZE 256  // блокдля чтения
+#define BLOCK_SIZE 256  // блок для чтения
 #define BUF_INIT_SIZE 32
 
 const char *SPECIAL_WORDS[] = {"||", ">>", "&&", "|", ">", "<", ";", "(", ")", NULL};
@@ -132,3 +132,4 @@ int main() {
     
     return 0;
 }
+
